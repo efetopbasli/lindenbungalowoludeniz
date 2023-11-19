@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #faefe8;
+
+}
+
+header {
+  background-color: #e6d6c9;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.menu-items a:hover {
+  color: #751201b0; /* Hover için kahverengi renk */
+}
+
+.reserve-button {
+  border-radius: 10px; /* Köşelerin yuvarlanması */
+  background-color: #532708; /* Rezerve et butonunun arka plan rengi */
+  padding: 10px 20px;
+}
+
+.reserve-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+
+}
+
+.reserve-button a:hover {
+  background-color: #532708; /* Hover için farklı bir kahverengi tonu */
+}
+/* Normal stilldeki CSS kodları */
+
+/* Ekran boyutu 768 pikselden küçükse bu stil kullanılacak */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 0; /* Header'ın padding'ini azaltabilirsiniz */
+  }
+
+  .navbar {
+    flex-direction: column; /* Navbar öğelerini sütun haline getirir */
+    padding: 10px 0; /* Navbar padding'ini azaltabilirsiniz */
+  }
+
+  .menu-items a {
+    margin-right: 10px; /* Menü öğeleri arasındaki boşluğu azaltabilirsiniz */
+  }
+
+  .reserve-button {
+    padding: 8px 16px; /* Rezerve et butonunun padding'ini ayarlayabilirsiniz */
+  }
+
+  .reserve-button a {
+    font-size: 16px; /* Rezerve et butonunun yazı boyutunu küçültebilirsiniz */
+  }
+}
+
+
+
+
+
+
+/* Navbar stili buraya gelecek */
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.brand-info {
+  text-align: left;
+}
+
+.brand-info h1 {
+  margin-bottom: 10px;
+  font-size: 94px;
+  margin-top:20%;
+
+
+  color: #751201b0; /* Hover için kahverengi renk */
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.brand-info p {
+  margin-top:10%;
+  color: rgb(0, 0, 0);
+  font-size: 34px;
+  font-family: 'PT Serif', serif;
+
+
+}
+
+.brand-info p2 {
+  margin-top:10%;
+  color: rgb(116, 116, 116);
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+
+
+}
+
+.image-container {
+  max-width: 40%; /* Önceki değer olan 300px yerine yüzde olarak genişlik belirle */
+  margin-top: 10%; /* İstediğin boşluk miktarına göre ayarla */
+  margin-right: 5%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.room-photos {
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+.room-photos h2 {
+  font-size: 38px;
+  margin-bottom: 5%;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo {
+  width: 300px; /* Fotoğraf kutularının genişliği */
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #e6d6c9;
+}
+
+.footer-address {
+  text-align: left;
+  margin-left: 10%;
+
+}
+
+.footer-map {
+  text-align: right;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+
+.footer-address h1 {
+  font-size: 38px;
+  margin-bottom: 5%;
+  font-family: 'Dancing Script', cursive;
+}
+.footer-address p {
+  font-size: 18px;
+  margin-bottom: 5%;
+  font-family: 'Dancing Script', cursive;
+}
+
+
